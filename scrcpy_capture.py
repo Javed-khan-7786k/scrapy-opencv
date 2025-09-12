@@ -41,3 +41,4 @@ class ScrcpyCapture:
         """Release resources (not strictly needed for mss)"""
         self.sct.close()
 # Example usage 
+#cap = ScrcpyCapture(window_title="phonecam")  # Match the title you used with scrcpy
